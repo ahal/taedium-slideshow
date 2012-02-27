@@ -1,0 +1,77 @@
+body {
+    background: #87e0fd; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #0D56A6 40%, #689AD3 100%); /* FF3.6+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* IE10+ */
+    background: radial-gradient(center, ellipse cover,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.header {
+    background: -moz-linear-gradient(19% 75% 90deg,#151796, #2A2B57);
+    background: -webkit-gradient(19% 75% 90deg,#151796, #2A2B57);
+    background: -o-gradient(19% 75% 90deg,#151796, #2A2B57);
+    background: -ms-gradient(19% 75% 90deg,#151796, #2A2B57);
+    background: linear-gradient(19% 75% 90deg,#151796, #2A2B57);
+    width: 110%;
+    height: 5em;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    border-bottom-style: 1px solid;
+    border-bottom-color: black;
+}
+
+.taedium {
+    background-color: #ffffff;
+    display: block;
+    padding: 0.5em;
+    width: 1100px;
+    height: 700px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -o-border-radius:10px;
+    -ms-border-radius:10px;
+    border-radius:10px; 
+
+    -mox-box-shadow: 7px 10px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 7px 10px rgba(0,0,0,0.5);
+    -o-box-shadow: 7px 10px rgba(0,0,0,0.5);
+    -ms-box-shadow: 7px 10px rgba(0,0,0,0.5);
+    box-shadow: 7px 7px rgba(0,0,0,0.5);
+}
+
+.taedium > .title {
+    background: -moz-linear-gradient(19% 75% 90deg, #2A2B57, #151796);
+    background: -o-linear-gradient(19% 75% 90deg, #2A2B57, #151796);
+    background: -webkit-linear-gradient(19% 75% 90deg, #2A2B57, #151796);
+    background: -ms-linear-gradient(19% 75% 90deg, #2A2B57, #151796);
+    background: linear-gradient(19% 75% 90deg, #2A2B57, #151796);
+    -moz-border-radius:10px 10px 0 0;
+    -webkit-border-radius:10px 10px 0 0;
+    -o-border-radius:10px 0 10px 0;
+    -ms-border-radius:10px 0 10px 0;
+    border-radius:10px 10px 0 0; 
+    width: 1116px;
+    height: 70px;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+
+.taedium > .title > span {
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: xx-large; 
+} 
+
+#logo {
+    margin-left: 420px;
+    color: white;
+    letter-spacing: -0.05em;
+    font: bold 5em Georgia, Times New Roman; 
+    text-shadow: 0px 1px 4px rgb(68,68,68), -1px -1.5px 1px rgb(204,204,204);
+    text-align: left;
+    
+}

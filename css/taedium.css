@@ -6,6 +6,8 @@ body {
     background: -ms-radial-gradient(center, ellipse cover,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* IE10+ */
     background: radial-gradient(center, ellipse cover,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    font-size: 100%;
 }
 
 .header {
@@ -16,7 +18,7 @@ body {
     background: linear-gradient(19% 75% 90deg,#151796, #2A2B57);
 
     width: 110%;
-    height: 5em;
+    height: 8%;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
@@ -36,7 +38,7 @@ body {
 
 #impress {
     width: 100%;
-    height: 100%;
+    height: 92%;
 }
 
 #impress div.canvas {
@@ -47,7 +49,7 @@ body {
 .taedium {
     background-color: #ffffff;
     width: 50%;
-    height: 80%;
+    height: 90%;
     margin-top: 20px;
 
     -moz-border-radius:10px;
@@ -64,6 +66,7 @@ body {
 }
 
 .taedium > .title {
+    display: table;
     background: -moz-linear-gradient(19% 75% 90deg, #2A2B57, #151796);
     background: -o-linear-gradient(19% 75% 90deg, #2A2B57, #151796);
     background: -webkit-linear-gradient(19% 75% 90deg, #2A2B57, #151796);
@@ -71,20 +74,22 @@ body {
     background: linear-gradient(19% 75% 90deg, #2A2B57, #151796);
     -moz-border-radius:10px 10px 0 0;
     -webkit-border-radius:10px 10px 0 0;
-    -o-border-radius:10px 0 10px 0;
-    -ms-border-radius:10px 0 10px 0;
+    -o-border-radius:10px 10px 0 0;
+    -ms-border-radius:10px 10px 0 0;
     border-radius:10px 10px 0 0; 
     width: 100%;
     height: 10%;
 }
 
 .taedium > .title > span {
-    display: block;
+    display: table-cell;
+    height: 100%;
+    width: 100%;
     color: white;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font-size: 3.0em; 
+    vertical-align: middle;
 }
 
 .taedium > .content {
@@ -101,5 +106,12 @@ body {
     vertical-align: middle;
     margin-top: auto;
     margin-bottom: auto;
+    
+    
+    -moz-border-radius:0 0 10px 10px ;
+    -webkit-border-radius:0 0 10px 10px;
+    -o-border-radius:0 0 10px 10px;
+    -ms-border-radius:0 0 10px 10px;
+    border-radius:0 0 10px 10px; 
 }
 

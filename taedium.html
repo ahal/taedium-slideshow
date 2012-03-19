@@ -9,13 +9,21 @@
     <meta name="description" content="Taedium technical presentation"/>
     <meta name="author" content="Andrew Halberstadt" />
 
-    <!--<link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />-->
     <link href="css/taedium.css" rel="stylesheet" />
     
-    <script type="application/javascript" src="js/taedium.js"></script>
+    <script type="text/javascript" src="js/taedium.js"></script>
+    <script type="text/javascript" src="js/clock.js"></script>
 </head>
-<body onload="adjustResolution();" onkeypress="validateKey(event);">
+<body onload="adjustResolution(); startTime();" onkeypress="validateKey(event);">
     <div class="header">
+        <div id="icons">
+            <span>
+                <img src="icons/white/16x16/sound_high.png"/>
+                <img src="icons/white/16x16/chart_bar.png"/>
+                <img src="icons/white/16x16/battery.png"/>
+                <span id="clock"/>
+            </span>
+        </div>
         <div id="logo"><span>taedium</span></div>
     </div>
 
